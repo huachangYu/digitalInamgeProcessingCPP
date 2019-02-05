@@ -1,0 +1,746 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+#include "verrsrc.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "#include ""verrsrc.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#include ""res\\yuhuachang.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#include ""l.CHS\\afxprint.rc""    // 打印/打印预览资源\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\yuhuachang.ico"
+
+IDR_yuhuachangTYPE      ICON                    "res\\yuhuachangDoc.ico"
+
+IDI_ICON1               ICON                    "res\\余华昌.ico"
+
+IDI_ICON2               ICON                    "res\\myphoto.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_APP_ABOUT
+    BUTTON      ID_FormerPic
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "新建(&N)\tCtrl+N",              ID_FILE_NEW
+        MENUITEM "打开(&O)...\tCtrl+O",           ID_FILE_OPEN
+        MENUITEM "关闭(&C)",                      ID_FILE_CLOSE
+        MENUITEM SEPARATOR
+        MENUITEM "打印设置(&R)...",                 ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "最近的文件",                       ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "退出(&X)",                      ID_APP_EXIT
+    END
+    POPUP "视图(&V)"
+    BEGIN
+        MENUITEM "工具栏(&T)",                     ID_VIEW_TOOLBAR
+        MENUITEM "状态栏(&S)",                     ID_VIEW_STATUS_BAR
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "关于 yuhuachang(&A)...",        ID_APP_ABOUT
+    END
+END
+
+IDR_yuhuachangTYPE MENU
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "新建(&N)\tCtrl+N",              ID_FILE_NEW
+        MENUITEM "打开(&O)...\tCtrl+O",           ID_FILE_OPEN
+        MENUITEM "关闭(&C)",                      ID_FILE_CLOSE
+        MENUITEM "保存(&S)\tCtrl+S",              ID_FILE_SAVE
+        MENUITEM "另存为(&A)...",                  ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "打印(&P)...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "打印预览(&V)",                    ID_FILE_PRINT_PREVIEW
+        MENUITEM "打印设置(&R)...",                 ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "最近的文件",                       ID_FILE_MRU_FILE1
+        MENUITEM SEPARATOR
+        MENUITEM "退出(&X)",                      ID_APP_EXIT
+    END
+    POPUP "编辑(&E)"
+    BEGIN
+        MENUITEM "撤消(&U)\tCtrl+Z",              ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "剪切(&T)\tCtrl+X",              ID_EDIT_CUT
+        MENUITEM "复制(&C)\tCtrl+C",              ID_EDIT_COPY
+        MENUITEM "粘贴(&P)\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "视图(&V)"
+    BEGIN
+        MENUITEM "工具栏(&T)",                     ID_VIEW_TOOLBAR
+        MENUITEM "状态栏(&S)",                     ID_VIEW_STATUS_BAR
+    END
+    POPUP "窗口(&W)"
+    BEGIN
+        MENUITEM "新建窗口(&N)",                    ID_WINDOW_NEW
+        MENUITEM "层叠(&C)",                      ID_WINDOW_CASCADE
+        MENUITEM "平铺(&T)",                      ID_WINDOW_TILE_HORZ
+        MENUITEM "排列图标(&A)",                    ID_WINDOW_ARRANGE
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "关于 yuhuachang(&A)...",        ID_APP_ABOUT
+    END
+    POPUP "查看"
+    BEGIN
+        MENUITEM "直方图",                         ID_VIEW_INTENSITY
+    END
+    POPUP "图像处理"
+    BEGIN
+        MENUITEM "彩色图像灰度化",                     ID_COLOR2GRAY
+        POPUP "边缘检测"
+        BEGIN
+            MENUITEM "Sobel",                       32808
+            MENUITEM "Laplace",                     32809
+            MENUITEM "Roberts",                     32812
+        END
+        POPUP "滤波"
+        BEGIN
+            MENUITEM "均值滤波",                        ID_AverageFilter
+            MENUITEM "中值滤波",                        32820
+        END
+        POPUP "直方图修正"
+        BEGIN
+            MENUITEM "均衡化",                         ID_HistogramEqualization
+            MENUITEM "规定化",                         ID_HistogramMatch
+        END
+        POPUP "图像加噪"
+        BEGIN
+            MENUITEM "高斯噪声",                        ID_AddNoiseGuassian
+            MENUITEM "椒盐噪声",                        32827
+        END
+        POPUP "图像锐化"
+        BEGIN
+            MENUITEM "Laplace",                     ID_SharpeningLaplace
+            MENUITEM "梯度锐化",                        32835
+        END
+        MENUITEM "灰度转伪彩色",                      32829
+    END
+    POPUP "几何变换"
+    BEGIN
+        MENUITEM "图像平移",                        ID_IMAGE_PANNING
+        MENUITEM "镜像变换",                        ID_IMAGE_MIRROR
+        MENUITEM "图像旋转",                        ID_IMAGE_ROTATE
+    END
+    POPUP "点运算"
+    BEGIN
+        MENUITEM "图像反色",                        ID_POINT_TRANS
+        MENUITEM "阈值变换",                        ID_PointThre
+        POPUP "灰度变换"
+        BEGIN
+            POPUP "线性变换"
+            BEGIN
+                MENUITEM "D(B)=1.5*D(A)",               ID_Mutiply_1_5
+                MENUITEM "D(B)=0.6*D(A)",               32802
+            END
+            POPUP "分段线性变换"
+            BEGIN
+                MENUITEM "D(B)=D(A)*D(A)/255",          ID_NonLinnearTrans_DD_255
+            END
+            MENUITEM "非线性变换",                       ID_32797
+        END
+    END
+    POPUP "其他功能"
+    BEGIN
+        MENUITEM "马赛克",                         32828
+        MENUITEM "文字检测",                        ID_CharaterSeg
+        MENUITEM "车牌分割",                        ID_LinsenceSegmentation
+        MENUITEM "车牌字符分割",                      ID_LisenseStrSeg
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 101, 89
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 yuhuachang"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDI_ICON2,IDC_STATIC,37,17,16,14,SS_CENTERIMAGE
+    LTEXT           "yuhuachang，1.0 版",IDC_STATIC,16,38,69,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2018",IDC_STATIC,17,50,68,8
+    DEFPUSHBUTTON   "确定",IDOK,44,68,50,14,WS_GROUP
+END
+
+IDD_DLG_Intensity DIALOGEX 0, 0, 216, 209
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "图像灰度直方图"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,89,186,50,14
+    PUSHBUTTON      "取消",2,152,186,50,14
+    EDITTEXT        IDC_EDIT_LowGray,109,166,30,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_UpGray,173,167,29,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "",IDC_COORD,7,7,202,125
+    LTEXT           "显示灰度图下限：",IDC_STATIC,37,170,70,8
+    LTEXT           "下限：",IDC_STATIC,145,170,27,8
+END
+
+IDD_PAN DIALOGEX 0, 0, 154, 86
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "图像平移"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,41,65,50,14
+    PUSHBUTTON      "取消",2,97,65,50,14
+    EDITTEXT        IDC_EDIT_PAN_Y,102,36,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PAN_X,40,36,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "X:",IDC_STATIC,30,42,8,8
+    LTEXT           "Y:",IDC_STATIC,91,41,8,8
+    RTEXT           "请输入需要平移的值：",IDC_STATIC,17,22,87,8
+END
+
+IDD_DIALOG_PointThre DIALOGEX 0, 0, 330, 203
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,7,112,50,14
+    PUSHBUTTON      "取消",2,58,112,50,14
+    LTEXT           "Static",IDC_COORD,116,7,207,155
+    GROUPBOX        "阈值变换参数",IDC_STATIC,7,59,101,40
+    LTEXT           "阈值：",IDC_STATIC,7,74,27,8
+    EDITTEXT        IDC_EDIT_Thre,32,71,40,14,ES_AUTOHSCROLL | ES_NUMBER
+END
+
+IDD_Rotate DIALOGEX 0, 0, 150, 61
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "旋转角度"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,19,40,50,14
+    PUSHBUTTON      "取消",2,83,40,50,14
+    EDITTEXT        IDC_EDIT_Angle,67,15,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "角度：",IDC_STATIC,35,18,27,8
+END
+
+IDD_DLG_Zoom DIALOGEX 0, 0, 131, 82
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "图像缩放"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,12,60,50,14
+    PUSHBUTTON      "取消",2,66,60,50,14
+    EDITTEXT        IDC_EDIT_xScale,54,12,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_yScale,54,30,40,14,ES_AUTOHSCROLL
+    LTEXT           "横向：",IDC_STATIC,24,12,27,8
+    LTEXT           "纵向：",IDC_STATIC,24,30,27,8
+END
+
+IDD_GuassianNoise DIALOGEX 0, 0, 142, 59
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "高斯噪声"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,19,38,50,14
+    PUSHBUTTON      "取消",2,74,38,50,14
+    EDITTEXT        IDC_Mean,67,3,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_Variance,66,20,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "均值：",IDC_STATIC,33,6,27,8
+    LTEXT           "方差：",IDC_STATIC,31,23,27,8
+END
+
+IDD_DlgSaltPepperNoise DIALOGEX 0, 0, 143, 50
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "椒盐噪声"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,18,30,50,14
+    PUSHBUTTON      "取消",2,73,30,50,14
+    LTEXT           "信噪比：",IDC_STATIC,27,13,35,8
+    EDITTEXT        IDC_EDIT_SNR,70,9,40,14,ES_AUTOHSCROLL
+END
+
+IDD_CharacterSeg DIALOGEX 0, 0, 511, 381
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "文字检测"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_S_Showimg,"Static",SS_BLACKRECT,7,7,496,338
+    PUSHBUTTON      "打开图像",IDC_B_ShowImg,365,353,63,21
+    PUSHBUTTON      "文字定位",IDC_B_CharaterSeg,446,352,57,22
+END
+
+IDD_DlgLicensePlate DIALOGEX 0, 0, 367, 126
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "车牌"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_Picture,"Static",SS_BLACKRECT,7,7,353,98
+    PUSHBUTTON      "车牌分割",IDC_LinsenseSeg,310,105,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "yuhuachang"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "yuhuachang.exe"
+            VALUE "LegalCopyright", "TODO:  (C) <公司名>。  保留所有权利。"
+            VALUE "OriginalFilename", "yuhuachang.exe"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 94
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 82
+    END
+
+    IDD_DLG_Intensity, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 209
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 202
+    END
+
+    IDD_PAN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 147
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 79
+    END
+
+    IDD_DIALOG_PointThre, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 323
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 196
+    END
+
+    IDD_Rotate, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 143
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 54
+    END
+
+    IDD_DLG_Zoom, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 124
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 75
+    END
+
+    IDD_GuassianNoise, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 135
+        BOTTOMMARGIN, 52
+    END
+
+    IDD_DlgSaltPepperNoise, DIALOG
+    BEGIN
+        RIGHTMARGIN, 141
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 44
+    END
+
+    IDD_CharacterSeg, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 503
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 374
+    END
+
+    IDD_DlgLicensePlate, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 360
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 119
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DLG_Intensity AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_PAN AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_PointThre AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_Rotate AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DLG_Zoom AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_GuassianNoise AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DlgSaltPepperNoise AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_CharacterSeg AFX_DIALOG_LAYOUT
+BEGIN
+    0,
+    0, 0, 100, 100,
+    0, 0, 0, 0,
+    0, 0, 0, 0
+END
+
+IDD_ABOUTBOX AFX_DIALOG_LAYOUT
+BEGIN
+    0,
+    0, 0, 100, 100,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0
+END
+
+IDD_DlgLicensePlate AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDP_OLE_INIT_FAILED     "OLE 初始化失败。  请确保 OLE 库是正确的版本。"
+END
+
+STRINGTABLE
+BEGIN
+    IDR_MAINFRAME           "yuhuachang"
+    IDR_yuhuachangTYPE      "\nyuhuachang\nyuhuachang\nyuhuachang Files (*.bmp)\n.bmp\nyuhuachang.Document\nyuhuachang.Document"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_APP_TITLE       "yuhuachang"
+    AFX_IDS_IDLEMESSAGE     "就绪"
+END
+
+STRINGTABLE
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_NEW             "创建新文档\n新建"
+    ID_FILE_OPEN            "打开现有文档\n打开"
+    ID_FILE_CLOSE           "关闭活动文档\n关闭"
+    ID_FILE_SAVE            "保存活动文档\n保存"
+    ID_FILE_SAVE_AS         "用新名称保存活动文档\n另存为"
+    ID_FILE_PAGE_SETUP      "更改打印选项\n页面设置"
+    ID_FILE_PRINT_SETUP     "更改打印机选项和打印选项\n打印设置"
+    ID_FILE_PRINT           "打印活动文档\n打印"
+    ID_FILE_PRINT_DIRECT    "使用当前选项打印活动文档\n快速打印"
+    ID_FILE_PRINT_PREVIEW   "显示整页\n打印预览"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_ABOUT            "显示程序信息、版本号和版权信息\n关于"
+    ID_APP_EXIT             "退出应用程序；提示保存文档\n退出"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_MRU_FILE1       "打开此文档"
+    ID_FILE_MRU_FILE2       "打开此文档"
+    ID_FILE_MRU_FILE3       "打开此文档"
+    ID_FILE_MRU_FILE4       "打开此文档"
+    ID_FILE_MRU_FILE5       "打开此文档"
+    ID_FILE_MRU_FILE6       "打开此文档"
+    ID_FILE_MRU_FILE7       "打开此文档"
+    ID_FILE_MRU_FILE8       "打开此文档"
+    ID_FILE_MRU_FILE9       "打开此文档"
+    ID_FILE_MRU_FILE10      "打开此文档"
+    ID_FILE_MRU_FILE11      "打开此文档"
+    ID_FILE_MRU_FILE12      "打开此文档"
+    ID_FILE_MRU_FILE13      "打开此文档"
+    ID_FILE_MRU_FILE14      "打开此文档"
+    ID_FILE_MRU_FILE15      "打开此文档"
+    ID_FILE_MRU_FILE16      "打开此文档"
+END
+
+STRINGTABLE
+BEGIN
+    ID_NEXT_PANE            "切换到下一个窗格\n下一窗格"
+    ID_PREV_PANE            "切换回上一个窗格\n上一窗格"
+END
+
+STRINGTABLE
+BEGIN
+    ID_WINDOW_NEW           "为活动文档打开另一个窗口\n新建窗口"
+    ID_WINDOW_ARRANGE       "在窗口底部排列图标\n排列图标"
+    ID_WINDOW_CASCADE       "以重叠方式排列窗口\n层叠窗口"
+    ID_WINDOW_TILE_HORZ     "以不重叠的平铺方式排列窗口\n平铺窗口"
+    ID_WINDOW_TILE_VERT     "以不重叠的平铺方式排列窗口\n平铺窗口"
+    ID_WINDOW_SPLIT         "将活动窗口拆分为多个窗格\n拆分"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_CLEAR           "清除所选内容\n清除"
+    ID_EDIT_CLEAR_ALL       "清除全部内容\n全部清除"
+    ID_EDIT_COPY            "复制所选内容，将其放入剪贴板\n复制"
+    ID_EDIT_CUT             "剪切所选内容，将其放入剪贴板\n剪切"
+    ID_EDIT_FIND            "查找指定的文本\n查找"
+    ID_EDIT_PASTE           "插入剪贴板内容\n粘贴"
+    ID_EDIT_REPEAT          "重复上一操作\n重复"
+    ID_EDIT_REPLACE         "用其他文本替换特定的文本\n替换"
+    ID_EDIT_SELECT_ALL      "选定整个文档\n全选"
+    ID_EDIT_UNDO            "撤消上一操作\n撤消"
+    ID_EDIT_REDO            "重做上次撤消的操作\n重做"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_TOOLBAR         "显示或隐藏工具栏\n切换工具栏"
+    ID_VIEW_STATUS_BAR      "显示或隐藏状态栏\n切换状态栏"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCSIZE          "更改窗口大小"
+    AFX_IDS_SCMOVE          "更改窗口位置"
+    AFX_IDS_SCMINIMIZE      "将窗口缩小成图标"
+    AFX_IDS_SCMAXIMIZE      "将窗口放大到最大尺寸"
+    AFX_IDS_SCNEXTWINDOW    "切换到下一个文档窗口"
+    AFX_IDS_SCPREVWINDOW    "切换到上一个文档窗口"
+    AFX_IDS_SCCLOSE         "关闭活动窗口并提示保存文档"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCRESTORE       "将窗口恢复到正常大小"
+    AFX_IDS_SCTASKLIST      "激活任务列表"
+    AFX_IDS_MDICHILD        "激活此窗口"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "关闭打印预览模式\n取消预览"
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#include "res\yuhuachang.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#include "l.CHS\afxprint.rc"    // 打印/打印预览资源
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

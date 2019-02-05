@@ -1,0 +1,26 @@
+﻿  yuhuachangView.cpp
+d:\biancheng\c++\yuhuachang\yuhuachang\resource.h(20): warning C4005: “IDCANCEL”: 宏重定义
+  c:\program files (x86)\windows kits\8.1\include\um\winuser.h(10565): note: 参见“IDCANCEL”的前一个定义
+d:\biancheng\c++\yuhuachang\yuhuachang\yuhuachangview.cpp(832): warning C4244: “=”: 从“double”转换到“BYTE”，可能丢失数据
+d:\biancheng\c++\yuhuachang\yuhuachang\yuhuachangview.cpp(1165): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+d:\biancheng\c++\yuhuachang\yuhuachang\yuhuachangview.cpp(1166): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+d:\biancheng\c++\yuhuachang\yuhuachang\yuhuachangview.cpp(1173): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+d:\biancheng\c++\yuhuachang\yuhuachang\yuhuachangview.cpp(1186): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+d:\biancheng\c++\yuhuachang\yuhuachang\yuhuachangview.cpp(1191): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+d:\biancheng\c++\yuhuachang\yuhuachang\yuhuachangview.cpp(1192): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+d:\biancheng\c++\yuhuachang\yuhuachang\yuhuachangview.cpp(1182): warning C4101: “temp”: 未引用的局部变量
+  DlgCharacterSeg.cpp
+d:\biancheng\c++\yuhuachang\yuhuachang\resource.h(20): warning C4005: “IDCANCEL”: 宏重定义
+  c:\program files (x86)\windows kits\8.1\include\um\winuser.h(10565): note: 参见“IDCANCEL”的前一个定义
+d:\programdata\opencv\build\include\opencv2\core\mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\programdata\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\programdata\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\programdata\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\programdata\opencv\build\include\opencv2\imgproc.hpp(592): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  正在生成代码...
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.rh(1365): warning RC4005: 'IDCANCEL' : redefinition
+  
+DlgCharacterSeg.obj : error LNK2019: 无法解析的外部符号 _cvReleaseImage，该符号在函数 "public: void __thiscall CDlgCharacterSeg::OnBnClickedBShowimg(void)" (?OnBnClickedBShowimg@CDlgCharacterSeg@@QAEXXZ) 中被引用
+DlgCharacterSeg.obj : error LNK2019: 无法解析的外部符号 _cvLoadImage，该符号在函数 "public: void __thiscall CDlgCharacterSeg::OnBnClickedBShowimg(void)" (?OnBnClickedBShowimg@CDlgCharacterSeg@@QAEXXZ) 中被引用
+D:\ProgramData\opencv\build\x64\vc14\lib\opencv_world320d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“X86”冲突
+D:\biancheng\c++\yuhuachang\Debug\yuhuachang.exe : fatal error LNK1120: 2 个无法解析的外部命令

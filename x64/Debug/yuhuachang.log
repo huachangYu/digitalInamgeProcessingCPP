@@ -1,0 +1,57 @@
+﻿  stdafx.cpp
+  yuhuachangView.cpp
+d:\programdata\opencv\build\include\opencv2\core\mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\programdata\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\programdata\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\programdata\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\programdata\opencv\build\include\opencv2\imgproc.hpp(592): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\biancheng\c++\yuhuachang\yuhuachang\yuhuachangview.cpp(663): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\biancheng\c++\yuhuachang\yuhuachang\yuhuachangview.cpp(1164): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+d:\biancheng\c++\yuhuachang\yuhuachang\yuhuachangview.cpp(1165): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+d:\biancheng\c++\yuhuachang\yuhuachang\yuhuachangview.cpp(1172): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+d:\biancheng\c++\yuhuachang\yuhuachang\yuhuachangview.cpp(1193): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+d:\biancheng\c++\yuhuachang\yuhuachang\yuhuachangview.cpp(1198): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+d:\biancheng\c++\yuhuachang\yuhuachang\yuhuachangview.cpp(1199): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+d:\biancheng\c++\yuhuachang\yuhuachang\yuhuachangview.cpp(1189): warning C4101: “temp”: 未引用的局部变量
+d:\biancheng\c++\yuhuachang\yuhuachang\yuhuachangview.cpp(1425): warning C4244: “=”: 从“wchar_t”转换到“char”，可能丢失数据
+d:\biancheng\c++\yuhuachang\yuhuachang\yuhuachangview.cpp(1447): warning C4244: “=”: 从“wchar_t”转换到“char”，可能丢失数据
+d:\biancheng\c++\yuhuachang\yuhuachang\yuhuachangview.cpp(1472): warning C4244: “=”: 从“wchar_t”转换到“char”，可能丢失数据
+  yuhuachangDoc.cpp
+  yuhuachang.cpp
+  ThresholdSegmentation.cpp
+  MainFrm.cpp
+  ImagePan.cpp
+  imageLicence.cpp
+d:\programdata\opencv\build\include\opencv2\core\mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\programdata\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\programdata\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\programdata\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\programdata\opencv\build\include\opencv2\imgproc.hpp(592): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\biancheng\c++\yuhuachang\yuhuachang\imagelicence.cpp(15): warning C4305: “初始化”: 从“double”到“float”截断
+d:\biancheng\c++\yuhuachang\yuhuachang\imagelicence.cpp(23): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+d:\biancheng\c++\yuhuachang\yuhuachang\imagelicence.cpp(132): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+d:\biancheng\c++\yuhuachang\yuhuachang\imagelicence.cpp(132): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+d:\biancheng\c++\yuhuachang\yuhuachang\imagelicence.cpp(149): warning C4305: “初始化”: 从“double”到“float”截断
+  Dlgsaltpepper.cpp
+  DlgRotate.cpp
+  DlgPointThre.cpp
+  DlgLicencePlate.cpp
+d:\programdata\opencv\build\include\opencv2\core\mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\programdata\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\programdata\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\programdata\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\programdata\opencv\build\include\opencv2\imgproc.hpp(592): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\biancheng\c++\yuhuachang\yuhuachang\dlglicenceplate.cpp(147): warning C4244: “=”: 从“wchar_t”转换到“char”，可能丢失数据
+  DlgIntensity.cpp
+  DlgGuassiannoise.cpp
+  DlgCharaterSeg.cpp
+d:\programdata\opencv\build\include\opencv2\core\mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\programdata\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\programdata\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\programdata\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\programdata\opencv\build\include\opencv2\imgproc.hpp(592): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\biancheng\c++\yuhuachang\yuhuachang\dlgcharaterseg.cpp(117): warning C4244: “=”: 从“wchar_t”转换到“char”，可能丢失数据
+  ChildFrm.cpp
+  正在生成代码...
+  yuhuachang.vcxproj -> D:\biancheng\c++\yuhuachang\x64\Debug\yuhuachang.exe
+  yuhuachang.vcxproj -> D:\biancheng\c++\yuhuachang\x64\Debug\yuhuachang.pdb (Partial PDB)
